@@ -3,6 +3,7 @@ This is a quick project to create a dnd chat bot for rules using pinecone and op
 
 # Setup
 1) (Optional) Create a virtual environment and enter it using your virtual engine of choice.
+
 2) Create a .env file with the following :
    * OPENAI_API_KEY=openai_api_key
    * PINECONE_API_KEY=pinecone_api_key
@@ -12,7 +13,9 @@ This is a quick project to create a dnd chat bot for rules using pinecone and op
 pip install openai pinecone-client python-dotenv 
 ```
 
-4) Run notebook cells
+4) Create a logs directory at the root of the chatbot.
+
+5) Run notebook cells.
 
 # Prompt change
 Note that changing the prompt will change the expected behavior of the llm.  The prompt is currently looking for TTRPG rules and information about TTRPGs.  
