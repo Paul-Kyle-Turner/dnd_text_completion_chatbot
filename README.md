@@ -23,3 +23,5 @@ pip install openai pinecone-client python-dotenv chromadb
 Note that changing the prompt will change the expected behavior of the llm.  The prompt is currently looking for TTRPG rules and information about TTRPGs.  
 
 Changing the prompt one should write as if they are the chat bot writing a first message to the user.
+
+You can also add in different pdf files to change the context that is delivered to the LLM.
